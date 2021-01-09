@@ -1,0 +1,84 @@
+body{
+  font-family: 'Esteban', san-serif;
+  margin: 0;
+}
+h1{
+  font-family: 'Kufam', cursive;
+  font-weight: bold;
+  padding:2% 0 0;
+}
+.head-3{
+  opacity: 0.8;
+}
+.bg-image{
+  background-image: url('https://wallpapermemory.com/uploads/394/black-wallpaper-full-hd-54043.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.connect{
+  margin-top: 25%;
+}
+#my-background{
+ margin: 5% 12%;
+}
+.heading-4{
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 1.2rem;
+  color: #86aba1;
+}
+.skill-head{
+  padding-bottom: 2%;
+}
+.lh-base{
+  padding-left: 3%;
+  padding-top: 2%;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.image{
+  width: 67%;
+}
+#skills{
+  margin: 5% 12%;
+}
+#middle-content{
+  background-color: #f6f5f1;
+  width: 100%;
+  margin: 0;
+  padding: 5% 12%;
+}
+#footer{
+  background-color: #1a1c20;
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+.para-foot{
+  color: white;
+  font-family: 'Kufam', cursive;
+  font-size: 1.5rem;
+}
+.fab-fa{
+  color: white ;
+  padding: 0 1%;
+  font-size: 1rem;
+}
+.fab-fa:hover {
+	color:linear-gradient(to bottom, #f6f5f1 2%, #f5f4f4 100%);
+	color:#f5f4f4 ;
+  font-size: 1.2rem;
+}
+@media (max-width:750px){
+  .connect{
+    padding-top: 23%;
+  }
+}
+@media (max-width:800px){
+  .para-foot{
+    font-size: 0.9rem;
+  }
+  .fab-fa{
+    font-size:0.6rem;
+  }
+}
